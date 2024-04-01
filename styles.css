@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0; 
+}
+
+.container {
+  max-width: 600px; 
+  text-align: center; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+  margin-bottom: 20px; 
+}
+
+.button-box {
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  border-radius: 5px;
+}
+
+.select-box h6 {
+  margin: 0;
+}
+.board {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+}
